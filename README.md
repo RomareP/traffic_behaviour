@@ -15,15 +15,15 @@ aim to compare different regression and Neural Networks techniques to verify the
 # Dataset
 19 variables of the traffic and streets features: Day, Immobilized bus, Vehicle excess, Running over, Occurrence involving freight, Lack of electricity, Point of flooding, Defect in the network of trolleybuses, Semaphore off, Slowness in traffic (%), Hour (Coded), Broken Truck, Accident victim, Fire vehicles, Incident involving dangerous freight, Fire, Manifestations, Tree on the road, Intermittent Semaphore
 
-#Features Extraction
+# Features Extraction
 The hour variable is split into 27 di↵erent binary columns: the column called 1 represent 7.00 am, the column called 2 represent 7.30 am, the column called 3 represent 8.00 am and so far and so on.
 At this point, the dataset is divided into X vectors (e.g. a cluster of all independent variables) and y vector (e.g. a cluster of the dependent variable).
 
 # Models 
 Polynomial Regression, Decision Tree Regressor, Random Forest Regressor, MLP Regression, LSTM.
 
-#Evaluations
+# Evaluations
 R^2, MAE, MSE, RMSE.
 
-#Considerations
+# Considerations
 Please, consider the overfitting, in particular when using LSTM.
